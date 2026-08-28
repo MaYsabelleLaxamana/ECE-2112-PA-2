@@ -184,7 +184,7 @@ np.save("above\_mean.npy", above\_mean)
 
 
 
-To access the full Python code for Programming Assignment 1, download the file from this link: \[link] To execute the code, open the file in Jupyter Notebook and run all the cells.
+To access the full Python code for Programming Assignment 1, download the file from this link: https://github.com/MaYsabelleLaxamana/ECE-2112-PA-2/blob/main/LAXAMANA\_PA2.ipynb. To execute the code, open the file in Jupyter Notebook and run all the cells.
 
 
 
