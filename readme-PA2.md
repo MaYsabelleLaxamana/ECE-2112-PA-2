@@ -54,27 +54,27 @@ X = np.random.randint(10, 101, size=(5, 5))
 
 
 
-X\_mean = np.mean (X)
+X\\\_mean = np.mean (X)
 
-X\_std = np.std (X)
-
-
-
-X\_normalized = (X - X\_mean)/X\_std 
+X\\\_std = np.std (X)
 
 
 
-print("X:\\n", X)
-
-print("Normalized X:\\n", X\_normalized)
-
-print("Mean =", np.mean(X\_normalized))
-
-print("Standard Deviation =", np.std(X\_normalized))
+X\\\_normalized = (X - X\\\_mean)/X\\\_std 
 
 
 
-np.save("X\_normalized.npy", X\_normalized)
+print("X:\\\\n", X)
+
+print("Normalized X:\\\\n", X\\\_normalized)
+
+print("Mean =", np.mean(X\\\_normalized))
+
+print("Standard Deviation =", np.std(X\\\_normalized))
+
+
+
+np.save("X\\\_normalized.npy", X\\\_normalized)
 
 ```
 
@@ -92,7 +92,7 @@ Create a 10x10 array containing the cubes of the first 100 positive integers (fr
 
 \* \*\*`np.arange()`\*\* - used to generate an initial 1D array containing the sequential integers from 1 to 100.
 
-\* \*\*`Vectorized Arithmetic (\*\* 3)`\*\* - used to cube every element within the array simultaneously.
+\* \*\*`Vectorized Arithmetic (\\\*\\\* 3)`\*\* - used to cube every element within the array simultaneously.
 
 \* \*\*`.reshape()`\*\* - used to restructure the 1D array into the required 10x10 matrix format.
 
@@ -104,25 +104,25 @@ Create a 10x10 array containing the cubes of the first 100 positive integers (fr
 
 ```python
 
-C = np.arange(1, 101)\*\*3
+C = np.arange(1, 101)\\\*\\\*3
 
 C = C.reshape(10, 10)
 
 
 
-div\_by\_4 = C\[C%4 == 0] 
+div\\\_by\\\_4 = C\\\[C%4 == 0] 
 
 
 
 print("Shape of C:", C.shape)
 
-print("Array div\_by\_4:\\n", div\_by\_4)
+print("Array div\\\_by\\\_4:\\\\n", div\\\_by\\\_4)
 
-print("Number of Selected Elements =", div\_by\_4.size)
+print("Number of Selected Elements =", div\\\_by\\\_4.size)
 
 
 
-np.save("div\_by\_4.npy", div\_by\_4)
+np.save("div\\\_by\\\_4.npy", div\\\_by\\\_4)
 
 ```
 
@@ -138,7 +138,7 @@ Create a 6x6 array containing the squares of the first 36 positive integers, cal
 
 \* \*\*`np.arange()`\*\* - used to generate an initial 1D array containing the first 36 positive integers.
 
-\* \*\*`Vectorized Arithmetic (\*\*2)`\*\* - used to square every element within the array simultaneously.
+\* \*\*`Vectorized Arithmetic (\\\*\\\*2)`\*\* - used to square every element within the array simultaneously.
 
 \* \*\*`.reshape()`\*\* - used to format the sequence of squares into a 6x6 multidimensional array.
 
@@ -150,31 +150,31 @@ Create a 6x6 array containing the squares of the first 36 positive integers, cal
 
 ```python
 
-S = np.arange(1, 37)\*\*2
+S = np.arange(1, 37)\\\*\\\*2
 
 S = S.reshape(6, 6)
 
 
 
-S\_mean = np.mean(S) 
+S\\\_mean = np.mean(S) 
 
 
 
-above\_mean = S\[S > S\_mean] 
+above\\\_mean = S\\\[S > S\\\_mean] 
 
 
 
-print("S:\\n", S)
+print("S:\\\\n", S)
 
-print("Mean of S:", S\_mean)
+print("Mean of S:", S\\\_mean)
 
-print("Array above\_mean:", above\_mean)
+print("Array above\\\_mean:", above\\\_mean)
 
-print("Number of Selected Elements =", above\_mean.size)
+print("Number of Selected Elements =", above\\\_mean.size)
 
 
 
-np.save("above\_mean.npy", above\_mean)
+np.save("above\\\_mean.npy", above\\\_mean)
 
 ```
 
