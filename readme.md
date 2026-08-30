@@ -12,7 +12,7 @@ The objective of this laboratory activity is to demonstrate proficiency in utili
 ### A. REPRODUCIBLE NORMALIZATION PROBLEM
 Create a reproducible random 5x5 integer array and normalize its values using the standard z-score formula. The resulting array is then saved as a `.npy` file.
 
-** The following NumPy functions and methods were used in this problem: **
+**The following NumPy functions and methods were used in this problem:**
 
 * **`np.random.seed()`** - used to initialize the random number generator to a specific state, ensuring the randomly generated array is exactly the same every time the code is executed.
 * **`np.random.randint()`** - used to generate the 5x5 array (ndarray) with random integers between 10 and 100.
@@ -40,7 +40,7 @@ np.save("X_normalized.npy", X_normalized)
 ### B. CUBES DIVISIBLE BY 4 PROBLEM
 Create a 10x10 array containing the cubes of the first 100 positive integers (from 1³ to 100³), and then extract only the values that are perfectly divisible by 4.
 
-** The following NumPy functions and methods were used in this problem: **
+**The following NumPy functions and methods were used in this problem:**
 
 * **`np.arange()`** - used to generate an initial 1D array containing the sequential integers from 1 to 100.
 * **`Vectorized Arithmetic (**3)`** - used to cube every element within the array simultaneously.
@@ -64,7 +64,7 @@ np.save("div_by_4.npy", div_by_4)
 ### C. ABOVE-MEAN SQUARES PROBLEM
 Create a 6x6 array containing the squares of the first 36 positive integers, calculate the mean of the entire array, and extract all elements that are strictly greater than that mean.
 
-** The following NumPy functions and methods were used in this problem: **
+**The following NumPy functions and methods were used in this problem:**
 
 * **`np.arange()`** - used to generate an initial 1D array containing the first 36 positive integers.
 * **`Vectorized Arithmetic (**2)`** - used to square every element within the array simultaneously.
@@ -94,3 +94,4 @@ np.save("above_mean.npy", above_mean)
 **README file Version History:**
 
 * **August 28, 2026** - Initial README output uploaded.
+* **August 30, 2026** - Made minor changes in the README output.
